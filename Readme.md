@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/24/user/953351).
-* Наставник: `Неизвестно`.
+* Студент: [Кормилкина Ольга](https://up.htmlacademy.ru/htmlcss/24/user/953351).
+* Наставник: [Андрей Островский] (https://htmlacademy.ru/profile/grandmaus)
 
 ---
 
