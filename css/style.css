@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+
+  font-family: "Roboto ", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+  background-color: #ffffff;
+{
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+
+ background-color: #eeeeee;
+}
+
+.site-navigation,
+.user-cart {
+ list-style: none;
+}
+
+.site-navigation a,
+.user-cart a {
+ color: #000000;
+}
+
+.service-list {
+  list-style: none;
+}
+
+.service-item{
+  text-align: center;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+
+  background-color: #eeeeee;
+}
