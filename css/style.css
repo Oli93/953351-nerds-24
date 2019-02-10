@@ -8,7 +8,7 @@ body {
   color: #283136;
 
   background-color: #ffffff;
-{
+}
 
 a {
   text-decoration: none;
@@ -20,24 +20,33 @@ a {
   font-weight: 500;
   color: #000000;
 
- background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 .site-navigation,
 .user-cart {
- list-style: none;
+  list-style: none;
 }
 
 .site-navigation a,
 .user-cart a {
- color: #000000;
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #fb565a;
+}
+
+.site-navigation a:active {
+  color: #bdbdbd;
 }
 
 .service-list {
   list-style: none;
 }
 
-.service-item{
+.service-item {
   text-align: center;
 }
 
@@ -45,6 +54,179 @@ a {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
+  color: #000000;
+}
 
-  background-color: #eeeeee;
+.service-item p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.service-item a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.button-1 {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: none;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #e74246;
+}
+
+.button-1:active {
+  color: #e37376;
+  background-color: #d7373b;
+}
+
+.button-2 {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #00ca74;
+  border: none;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #00bc6c;
+}
+
+.button-2:active {
+  color: #4dc491;
+  background-color: #00aa62;
+}
+
+.button-3 {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #efc84a;
+  border: none;
+}
+
+.button-3:hover,
+.button-3:focus {
+  background-color: #eab534;
+}
+
+.button-3:active {
+  color: #edc265;
+  background-color: #e5a722;
+}
+
+.info-1 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.info-2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.info-3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.info-studio-list li {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.info-4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.digital-data {
+  font-size: 45px;
+  line-height: 10,06px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.advantages {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.examples-works ul {
+  list-style: none;
+}
+
+.examples-link a:hover,
+.examples-link a:focus {
+  background-image: url("img/logo-1.png copy.jpg");
+}
+
+.examples-link a:active {
+  background-image: url("img/logo-1.png copy 2.png");
+}
+
+.main-footer {
+  background-color: #ffffff;
+}
+
+.footer-social {
+  text-align: left;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.treatment {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.discount {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #444444;
 }
