@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Нёрдс</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo" href="index.html">
-          <img src="img/logo.svg" width="160" height="65" alt="Логотип Nerds">
-        </a>
-        <ul class="site-navigation">
-          <li><a href="studio.html">Студия</a></li>
-          <li><a href="clientele.html">Клиенты</a></li>
-          <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul class="user-cart">
+<head>
+  <meta charset="utf-8">
+  <title>Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="inner-page">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/logo.svg" width="160" height="65" alt="Логотип Nerds">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="studio.html">Студия</a></li>
+        <li><a href="clientele.html">Клиенты</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
         <li>
-          <a class="cart-link" href="cart.html">
-            <img src="img/cart-icon.svg" alt="Корзина">
+          <a href="cart.html">
+          <img src="img/cart-icon.svg" alt="Корзина">
           </a>
         </li>
+        <h1 class="inner-page-title">Магазин готовых шаблонов</h1>
       </ul>
-    </header>
-    <main>
-      <h1 class="page-title">Магазин готовых шаблонов</h1>
-      <section class="filters">
+    </nav>
+  </header>
+  <main>
+    <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
           <fieldset>
@@ -47,7 +48,7 @@
               </li>
             </ul>
             </fieldset>
-          <fieldset>
+            <fieldset>
             <legend>Особенности:</legend>
             <ul class="filter-options">
               <li>
@@ -97,26 +98,28 @@
             <img src="img/kvast.jpg" width="360" height="576" alt="Kvast">
           </li>
         </ul>
-        <ul class="pagination">
-          <li>
-            <a href="#">1</a>
-          </li>
-          <li>
-            <a href="#">2</a>
-          </li>
-          <li>
-            <a href="#">3</a>
-          </li>
-          <li>
-            <a href="#">Следующая</a>
-          </li>
-        </ul>
-        </section>
+        <div class="pagination-inner-page">
+          <ul>
+            <li>
+              <a href="#">1</a>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+            <li>
+              <a href="#">Следующая</a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <section class="map">
         <h2 class="visually-hidden">Как до нас добраться</h2>
-        <p>
-          <img src="img/map.jpg" width="1443" height="416" alt="Офис компании по адресу: ул. Большая Конюшенная, д. 19 дробь 8, Санкт-Петербург">
-        </p>
+        <img src="img/background-address.jpg" width="319" height="308" alt="Фоновая картинка под адресом">
+        <img src="img/map.jpg" width="1440" height="416" alt="Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+        <img src="img/map-marker.png" width="231" height="190" alt="Логотип Nerds">
       </section>
     </main>
     <footer class="main-footer">
@@ -130,15 +133,15 @@
           <a class="social-button" href="https://www.facebook.com/">
             <img src="img/fb-icon.svg" width="12" height="22" alt="Логотип Фейсбук">
           </a>
-          </li>
-        <li>
-          <a class="social-button" href="https://www.instagram.com/">
-            <img src="img/insta-icon.svg" width="21" height="21" alt="Логотип Инстаграм">
-          </a>
         </li>
-      </ul>
-      <p>Давайте дружить, это выгодно!</p>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
-    </footer>
+       <li>
+         <a class="social-button" href="https://www.instagram.com/">
+           <img src="img/insta-icon.svg" width="21" height="21" alt="Логотип Инстаграм">
+         </a>
+       </li>
+     </ul>
+     <p class="treatment-text">Давайте дружить, это выгодно!</p>
+     <p class="discount-text">Скидка 10% для друзей из социальных сетей.</p>
+   </footer>
   </body>
   </html>
