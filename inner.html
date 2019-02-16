@@ -10,7 +10,7 @@
 <body class="inner-page">
   <header class="main-header">
     <nav class="main-navigation">
-      <a class="main-header-logo">
+      <a href="index.html" class="main-header-logo">
         <img src="img/logo.svg" width="160" height="65" alt="Логотип Nerds">
       </a>
       <ul class="site-navigation">
@@ -29,119 +29,116 @@
   </header>
   <main>
     <section class="filters">
-        <h2 class="visually-hidden">Фильтр товаров</h2>
-        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-          <fieldset>
-            <legend>Сетка:</legend>
-            <ul class="filter-options">
-              <li>
-                <input type="radio" name="grid" id="filter-adaptive" value="filter-adaptive" checked>
-                <label for="filter-adaptive">Адаптивная</label>
-              </li>
-              <li>
-                <input type="radio" name="grid" id="filter-fixed" value="filter-fixed">
-                <label for="filter-fixed">Фиксированная</label>
-              </li>
-              <li>
-                <input type="radio" name="grid" id="filter-rubber" value="filter-rubber">
-                <label for="filter-rubber">Резиновая</label>
-              </li>
-            </ul>
-            </fieldset>
-            <fieldset>
-            <legend>Особенности:</legend>
-            <ul class="filter-options">
-              <li>
-                <input type="checkbox" name="slider" id="filter-slider" checked>
-                <label for="filter-slider">Слайдер</label>
-                </li>
-              <li>
-                <input type="checkbox" name="block-benefits" id="filter-block-benefits">
-                <label for="filter-block-benefits">Блок преимуществ</label>
-              </li>
-              <li>
-                <input type="checkbox" name="news" id="filter-news" checked>
-                <label for="filter-news">Новости</label>
-              </li>
-              <li>
-                <input type="checkbox" name="gallery" id="filter-gallery">
-                <label for="filter-gallery">Галерея</label>
-              </li>
-              <li>
-                <input type="checkbox" name="cart" id="filter-cart">
-                <label for="filter-cart">Корзина</label>
-            </li>
-            </ul>
-          </fieldset>
-          <button type="submit">Показать</button>
-        </form>
-      </section>
-      <section class="catalog">
-        <h2 class="visually-hidden">Список веб-сайтов</h2>
-        <ul class="catalog-list">
-          <li class="catalog-item">
-            <img src="img/sedona.jpg" width="360" height="576" alt="Sedona">
-          </li>
-          <li class="catalog-item">
-            <img src="img/pink.jpg" width="360" height="576" alt="Pink">
-          </li>
-          <li class="catalog-item">
-              <img src="img/barbershop.jpg" width="360" height="576" alt="Barbershop">
-          </li>
-          <li class="catalog-item">
-            <img src="img/mishka.jpg" width="360" height="576" alt="Mishka">
-          </li>
-          <li class="catalog-item">
-            <img src="img/aplus.jpg" width="360" height="576" alt="Img-aplus">
-          </li>
-          <li class="catalog-item">
-            <img src="img/kvast.jpg" width="360" height="576" alt="Kvast">
-          </li>
-        </ul>
-        <div class="pagination-inner-page">
-          <ul>
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Сетка:</legend>
+          <ul class="filter-options">
             <li>
-              <a href="#">1</a>
+              <input type="radio" name="grid" id="filter-adaptive" value="filter-adaptive" checked>
+              <label for="filter-adaptive">Адаптивная</label>
             </li>
             <li>
-              <a href="#">2</a>
+              <input type="radio" name="grid" id="filter-fixed" value="filter-fixed">
+              <label for="filter-fixed">Фиксированная</label>
             </li>
             <li>
-              <a href="#">3</a>
-            </li>
-            <li>
-              <a href="#">Следующая</a>
+              <input type="radio" name="grid" id="filter-rubber" value="filter-rubber">
+              <label for="filter-rubber">Резиновая</label>
             </li>
           </ul>
-        </div>
-      </section>
-      <section class="map">
-        <h2 class="visually-hidden">Как до нас добраться</h2>
-        <img src="img/background-address.jpg" width="319" height="308" alt="Фоновая картинка под адресом">
-        <img src="img/map.jpg" width="1440" height="416" alt="Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-        <img src="img/map-marker.png" width="231" height="190" alt="Логотип Nerds">
-      </section>
-    </main>
-    <footer class="main-footer">
-      <ul>
+        </fieldset>
+        <fieldset>
+          <legend>Особенности:</legend>
+          <ul class="filter-options">
+            <li>
+              <input type="checkbox" name="slider" id="filter-slider" checked>
+              <label for="filter-slider">Слайдер</label>
+            </li>
+            <li>
+              <input type="checkbox" name="block-benefits" id="filter-block-benefits">
+              <label for="filter-block-benefits">Блок преимуществ</label>
+            </li>
+            <li>
+              <input type="checkbox" name="news" id="filter-news" checked>
+              <label for="filter-news">Новости</label>
+            </li>
+            <li>
+              <input type="checkbox" name="gallery" id="filter-gallery">
+              <label for="filter-gallery">Галерея</label>
+            </li>
+            <li>
+              <input type="checkbox" name="cart" id="filter-cart">
+              <label for="filter-cart">Корзина</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
+      </form>
+    </section>
+    <section class="catalog">
+      <h2 class="visually-hidden">Список веб-сайтов</h2>
+      <li class="catalog-item">
+        <img src="img/sedona.jpg" width="360" height="576" alt="Sedona">
+      </li>
+      <li class="catalog-item">
+        <img src="img/pink.jpg" width="360" height="576" alt="Pink">
+      </li>
+      <li class="catalog-item">
+        <img src="img/barbershop.jpg" width="360" height="576" alt="Barbershop">
+      </li>
+      <li class="catalog-item">
+        <img src="img/mishka.jpg" width="360" height="576" alt="Mishka">
+      </li>
+      <li class="catalog-item">
+        <img src="img/aplus.jpg" width="360" height="576" alt="Img-aplus">
+      </li>
+      <li class="catalog-item">
+        <img src="img/kvast.jpg" width="360" height="576" alt="Kvast">
+      </li>
+    </ul>
+    <div class="pagination-inner-page">
+      <ul class="list-pagination">
         <li>
-          <a class="social-button" href="https://vk.com/">
-            <img src="img/vk-icon.svg" width="26" height="15" alt="Логотип Вконтакте">
-          </a>
+          <a href="#">1</a>
         </li>
         <li>
-          <a class="social-button" href="https://www.facebook.com/">
-            <img src="img/fb-icon.svg" width="12" height="22" alt="Логотип Фейсбук">
-          </a>
+          <a href="#">2</a>
         </li>
-       <li>
-         <a class="social-button" href="https://www.instagram.com/">
-           <img src="img/insta-icon.svg" width="21" height="21" alt="Логотип Инстаграм">
-         </a>
-       </li>
-     </ul>
-     <p class="treatment-text">Давайте дружить, это выгодно!</p>
-     <p class="discount-text">Скидка 10% для друзей из социальных сетей.</p>
-   </footer>
-  </body>
-  </html>
+        <li>
+          <a href="#">3</a>
+        </li>
+        <li>
+          <a href="#">Следующая</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="map">
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <img src="img/map.jpg" width="1440" height="416" alt="Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+  </section>
+</main>
+<footer class="main-footer">
+  <ul>
+    <li>
+      <a class="social-button" href="https://vk.com/">
+        <img src="img/vk-icon.svg" width="26" height="15" alt="Логотип Вконтакте">
+      </a>
+    </li>
+    <li>
+      <a class="social-button" href="https://www.facebook.com/">
+        <img src="img/fb-icon.svg" width="12" height="22" alt="Логотип Фейсбук">
+      </a>
+    </li>
+    <li>
+      <a class="social-button" href="https://www.instagram.com/">
+        <img src="img/insta-icon.svg" width="21" height="21" alt="Логотип Инстаграм">
+      </a>
+    </li>
+  </ul>
+  <p class="treatment-text">Давайте дружить, это выгодно!</p>
+  <p class="discount-text">Скидка 10% для друзей из социальных сетей.</p>
+</footer>
+</body>
+</html>

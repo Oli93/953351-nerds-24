@@ -10,17 +10,12 @@ body {
   background-color: #ffffff;
 }
 
-.inner-page h1 {
-  font-size: 55px;
-  line-height: 55px;
-  font-weight: 500;
-  color: #000000;
-  background-color: #eeeeee;
-  text-align: center;
-}
-
 a {
   text-decoration: none;
+}
+
+header {
+  background-color: #eeeeee;
 }
 
 .main-navigation {
@@ -28,17 +23,13 @@ a {
   line-height: 30px;
   font-weight: 500;
   color: #000000;
-
-  background-color: #eeeeee;
 }
 
-.site-navigation,
-.user-cart {
+.site-navigation {
   list-style: none;
 }
 
-.site-navigation a,
-.user-cart a {
+.site-navigation a {
   color: #000000;
 }
 
@@ -51,12 +42,41 @@ a {
   color: #bdbdbd;
 }
 
-.service-list {
-  list-style: none;
+.info-slide .slogan {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
 }
 
-.service-item {
-  text-align: center;
+.info-slide .addition {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.info-slide .button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #fb565a;
+}
+
+.info-slide .button:hover,
+.info-slide .button:focus {
+  background-color: #e74246;
+}
+
+.info-slide .button:active {
+  color: #e37376;
+  background-color: #d7373b;
+}
+
+.service-list {
+  list-style: none;
 }
 
 .service-item h3 {
@@ -87,7 +107,6 @@ a {
   text-transform: uppercase;
 
   background-color: #fb565a;
-  border: none;
 }
 
 .button-red:hover,
@@ -107,7 +126,6 @@ a {
   text-transform: uppercase;
 
   background-color: #00ca74;
-  border: none;
 }
 
 .button-green:hover,
@@ -127,7 +145,6 @@ a {
   text-transform: uppercase;
 
   background-color: #efc84a;
-  border: none;
 }
 
 .button-yellow:hover,
@@ -140,21 +157,21 @@ a {
   background-color: #e5a722;
 }
 
-.info-one {
+.info-studio .slogan {
   font-size: 45px;
   line-height: 45px;
   font-weight: 500;
   color: #000000;
 }
 
-.info-two {
+.info-studio .advantage {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #283136;
 }
 
-.info-three {
+.info-studio .list {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -162,14 +179,18 @@ a {
   text-transform: uppercase;
 }
 
-.info-studio-list li {
+.studio-list li {
+  list-style: none;
+}
+
+.studio-list li {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #283136;
 }
 
-.info-four {
+.info-studio .analysis {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -195,24 +216,47 @@ a {
   list-style: none;
 }
 
-.examples-link a:hover,
-.examples-link a:focus {
-  background-image: url("img/logo copy1.jpg");
+.examples-link .logo-html:hover,
+.examples-link .logo-html:focus {
+  background-image: url("../img/logo_11.svg");
 }
 
-.examples-link a:active {
-  background-image: url("img/logo-copy 11.png");
+.examples-link .logo-html:active {
+  background-image: url("../img/logo-111.svg");
+}
+
+.examples-link .logo-barbershop:hover,
+.examples-link .logo-barbershop:focus {
+  background-image: url("../img/logo-22.svg");
+}
+
+.examples-link .logo-barbershop:active {
+  background-image: url("../img/logo-222.svg");
+}
+
+.examples-link .logo-pink:hover,
+.examples-link .logo-pink:focus {
+  background-image: url("../img/logo-33.svg");
+}
+
+.examples-link .logo-pink:active {
+  background-image: url("../img/logo-333.svg");
+}
+
+.examples-link .logo-mishka:hover,
+.examples-link .logo-mishka:focus {
+  background-image: url("../img/logo-44.svg");
+}
+
+.examples-link .logo-mishka:active {
+  background-image: url("../img/logo-444.svg");
 }
 
 .main-footer {
   background-color: #ffffff;
 }
 
-.footer-social {
-  text-align: left;
-}
-
-.footer-social ul {
+.main-footer ul {
   list-style: none;
 }
 
@@ -234,12 +278,43 @@ a {
   color: #444444;
 }
 
+
+/*каталог*/
+
+
+.inner-page h1 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.main-header-logo img{
+  background-image: url("../img/nerds-logo1.svg");
+}
+
+.main-header-logo img:hover,
+.main-header-logo img:focus {
+  background-image: url("../img/nerds-logo1.svg");
+}
+
+.main-header-logo img:active {
+  background-image: url("../img/nerds-logo11.svg");
+}
+
+.filter-options li {
+  list-style: none;
+}
+
 .filter legend {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
   color: #000000;
 }
+
 
 .filter-options label {
   font-size: 16px;
@@ -254,6 +329,10 @@ a {
   font-weight: 500;
   color: #000000;
   background-color: #eeeeee;
+}
+
+.catalog-list li {
+  list-style: none;
 }
 
 .catalog a {
@@ -271,4 +350,8 @@ a {
 .catalog a:active {
   color: #959595;
   background-color: #d5d5d5;
+}
+
+.list-pagination li {
+  list-style: none;
 }
